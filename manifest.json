@@ -1,0 +1,9 @@
+{
+    "name": "Blank new tab",
+    "version": "1.0",
+    "description": "Replaces the default new tab with a clean blank page.",
+    "manifest_version": 3,
+    "chrome_url_overrides": {
+      "newtab": "blank.html"
+    }
+  }
