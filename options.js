@@ -1,7 +1,7 @@
 document.getElementById('save').addEventListener('click',()=>{
     const color = document.getElementById('bgColor').value;
     chrome.storage.sync.set({favoriteColor:color},()=>{
-        alert("Color saved");
+        alert("Color saved! Reload to update");
     })
 })
 
